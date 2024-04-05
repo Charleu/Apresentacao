@@ -2,8 +2,7 @@
 
 namespace Apresentacao
 {
-  
-public class Pessoa
+    class Pessoa
     {
         public string Nome { get; set; }
         public int Idade { get; set; }
@@ -14,6 +13,12 @@ public class Pessoa
             Nome = nome;
             Idade = idade;
             Altura = altura;
+        }
+        public void Apresentar()
+        {
+            Console.WriteLine($"Nome: {Nome}");
+            Console.WriteLine($"Idade: {Idade} anos");
+            Console.WriteLine($"Altura: {Altura} metros");
         }
     }
 }
