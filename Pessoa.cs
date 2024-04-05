@@ -18,7 +18,7 @@ namespace Apresentacao
         {
             Console.WriteLine($"Nome: {Nome}");
             Console.WriteLine($"Idade: {Idade} anos");
-            Console.WriteLine($"Altura: {Altura} metros");
+            Console.WriteLine($"Altura: {Altura.ToString("F2")} metros");
         }
     }
 }
